@@ -5,7 +5,7 @@ using namespace std;
 void printVector(vector < int > v) {
   int n = v.size();
   for (auto x: v) {
-    cout << v[x] << " ";
+    cout << x << " ";
   }
 }
 vector < int > scanVector(int n) {
